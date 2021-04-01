@@ -1,0 +1,43 @@
+#slot {
+  border: solid;
+  box-sizing: content-box;
+}
+
+.blink {
+  animation: blink 0.5s infinite alternate;
+  -webkit-animation: blink 0.5s infinite alternate;
+}
+@keyframes blink {
+  to {
+    background: #083d5e;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    background: #083d5e;
+  }
+}
+
+body {
+  background: #00a1ff !important;
+}
+.devrico {
+  background-color: #00a1ff;
+}
+.gold {
+  color: #fff !important;
+}
+.green {
+  color: green;
+}
+
+.v-align {
+  vertical-align: inherit !important;
+}
+
+div.modal-footer,
+div.modal-body,
+div.modal-header {
+  background-color: #00a1ff;
+  color: white;
+}
